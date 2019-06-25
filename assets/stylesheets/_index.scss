@@ -13,7 +13,8 @@
 // Main Section
 .sec1,
 .sec2,
-.sec4 {
+.sec4,
+.sec5 {
     h2 {
         padding-bottom: 5rem;
     }
@@ -39,6 +40,28 @@
     background: #103485;
     color: $textLight;
 }
+.card {
+    img {
+        width: 100%;   
+        height: auto;
+    }
+    div p {
+        justify-content: flex-start;
+    }
+}
+.card-text {
+    background: #103485;
+    color: $textLight;
+    padding: 0.5rem;
+    div p {
+        width: 50%;
+    }
+    position: relative;
+    top: -0.5rem;
+}
+.gap {
+    padding: 0.5rem;
+}
 
 .main_icon {
     color: #EF9632;
@@ -51,7 +74,8 @@
         width: 400px;
     }
     .sec1-grid,
-    .sec4-grid {
+    .sec4-grid,
+    .sec5-grid {
         margin: 0 auto;
     }
     .sec2-img-div {

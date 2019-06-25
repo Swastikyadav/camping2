@@ -198,6 +198,12 @@ p {
   justify-content: space-between;
   flex-wrap: wrap; }
 
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
 .flex-start {
   display: flex;
   align-items: center;
@@ -389,20 +395,24 @@ footer {
 
 .sec1 h2,
 .sec2 h2,
-.sec4 h2 {
+.sec4 h2,
+.sec5 h2 {
   padding-bottom: 5rem; }
 
 .sec1 div,
 .sec2 div,
-.sec4 div {
+.sec4 div,
+.sec5 div {
   width: 318px; }
   .sec1 div h5,
   .sec2 div h5,
-  .sec4 div h5 {
+  .sec4 div h5,
+  .sec5 div h5 {
     padding: 1rem 0; }
   .sec1 div p,
   .sec2 div p,
-  .sec4 div p {
+  .sec4 div p,
+  .sec5 div p {
     color: #888; }
 
 .sec2 div {
@@ -415,6 +425,25 @@ footer {
   background: #103485;
   color: #fff; }
 
+.card img {
+  width: 100%;
+  height: auto; }
+
+.card div p {
+  justify-content: flex-start; }
+
+.card-text {
+  background: #103485;
+  color: #fff;
+  padding: 0.5rem;
+  position: relative;
+  top: -0.5rem; }
+  .card-text div p {
+    width: 50%; }
+
+.gap {
+  padding: 0.5rem; }
+
 .main_icon {
   color: #EF9632;
   font-size: 3rem; }
@@ -423,7 +452,8 @@ footer {
   .hero-div {
     width: 400px; }
   .sec1-grid,
-  .sec4-grid {
+  .sec4-grid,
+  .sec5-grid {
     margin: 0 auto; }
   .sec2-img-div img {
     width: 100%; } }
