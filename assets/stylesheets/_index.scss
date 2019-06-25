@@ -59,6 +59,35 @@
     position: relative;
     top: -0.5rem;
 }
+.sec6 {
+    background: #1E282E;
+    color: $textLight;
+    p {
+        color: $textDark;
+    }
+    img {
+        width: 100%;
+    }
+}
+.sec7 {
+    h2,p {
+        padding-bottom: 1.5rem;
+    }
+    width: 800px;
+    margin: 0 auto;
+    img {
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    span {
+        font-weight: bold;
+        color: red;
+    }
+}
+.testimonial-text {
+    width: 300px;
+}
 .gap {
     padding: 0.5rem;
 }
@@ -82,5 +111,8 @@
         img {
             width: 100%;
         }
+    }
+    .sec7 {
+        width: 100%;
     }
 }

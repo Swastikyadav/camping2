@@ -192,6 +192,9 @@ p {
   display: grid;
   place-items: center; }
 
+.flex {
+  display: flex; }
+
 .flex-between {
   display: flex;
   align-items: center;
@@ -441,6 +444,29 @@ footer {
   .card-text div p {
     width: 50%; }
 
+.sec6 {
+  background: #1E282E;
+  color: #fff; }
+  .sec6 p {
+    color: #888; }
+  .sec6 img {
+    width: 100%; }
+
+.sec7 {
+  width: 800px;
+  margin: 0 auto; }
+  .sec7 h2, .sec7 p {
+    padding-bottom: 1.5rem; }
+  .sec7 img {
+    border-radius: 50%;
+    display: inline-block; }
+  .sec7 span {
+    font-weight: bold;
+    color: red; }
+
+.testimonial-text {
+  width: 300px; }
+
 .gap {
   padding: 0.5rem; }
 
@@ -456,6 +482,8 @@ footer {
   .sec5-grid {
     margin: 0 auto; }
   .sec2-img-div img {
+    width: 100%; }
+  .sec7 {
     width: 100%; } }
 
 /*contact section1*/
