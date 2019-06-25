@@ -217,11 +217,11 @@ p {
   height: auto; }
 
 .btn {
-  padding: 0.7rem 1.5rem;
+  padding: 0.5rem 1.7rem;
   border: 1px solid #888;
-  color: #888;
-  background: transparent;
-  border-radius: 4px;
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 0.04rem;
@@ -240,7 +240,9 @@ p {
   width: 100%;
   padding: 0.8rem 1rem;
   border: 1px solid #888;
-  color: #888; }
+  color: #888;
+  width: 100%;
+  border-radius: 4px; }
   .form-control::placeholder {
     color: #888;
     font-size: 0.9rem; }
@@ -429,13 +431,29 @@ footer {
     width: 100%; } }
 
 /*contact section1*/
-.contact-heading {
+.contact-heading h2 {
   font-size: 3rem;
   color: #353333;
-  font-weight: 900; }
-  .contact-heading p {
-    font-size: 1rem;
-    color: #888;
-    font-weight: 100; }
+  font-weight: 900;
+  padding-top: 5rem; }
+
+.contact-heading p {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 100;
+  padding: 1rem; }
 
 /*contact form*/
+.wrapper2 {
+  width: 100%;
+  padding: 1rem 7rem; }
+  .wrapper2 h3 {
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.5rem 0; }
+  .wrapper2 p {
+    padding-bottom: 5rem; }
+
+/*Map*/
+.map-embed {
+  width: 100%; }

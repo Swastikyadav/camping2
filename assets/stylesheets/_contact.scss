@@ -1,12 +1,33 @@
 /*contact section1*/
 .contact-heading{
+    h2{
     font-size: 3rem;
     color: $textDark2;
     font-weight: 900;
+    padding-top: 5rem;
+    }
+    
     p{
         font-size: 1rem;
         color: $textDark;
         font-weight: 100;
+        padding: 1rem;
     }
 }
 /*contact form*/
+.wrapper2{
+    width: 100%;
+    padding: 1rem 7rem;
+    h3{
+        font-size: 1rem;
+        font-weight: 900;
+        padding: 0.5rem 0;
+    }
+    p{
+        padding-bottom: 5rem;
+    }
+}
+/*Map*/
+.map-embed{
+    width: 100%;
+}
