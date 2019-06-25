@@ -545,3 +545,17 @@ footer {
 /*Map*/
 .map-embed {
   width: 100%; }
+
+.gallery-img {
+  width: 350px;
+  margin: 0 auto; }
+  .gallery-img img {
+    width: 100%; }
+
+.img-grid {
+  margin-bottom: 5rem; }
+
+@media all and (max-width: 768px) {
+  .gallery-img {
+    width: 300px img;
+      width-width: 100%; } }
