@@ -60,6 +60,12 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .flex-start {
     display: flex;
     align-items: center;
