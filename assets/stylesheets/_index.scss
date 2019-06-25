@@ -1,0 +1,62 @@
+.hero-div {
+    width: 500px;
+    padding: 13rem 0;
+    h2,
+    p {
+        color: $textLight;
+    }
+}
+.padding {
+    padding: 8rem 0;
+}
+
+// Main Section
+.sec1,
+.sec2,
+.sec4 {
+    h2 {
+        padding-bottom: 5rem;
+    }
+    div {
+        width: 318px;
+        h5 {
+            padding: 1rem 0;
+        }
+    p {
+        color: $textDark;
+    }
+    }
+}
+.sec2 {
+    div {
+        width: auto;
+    }
+    p {
+        padding: 1rem 0;
+    }
+}
+.sec3 {
+    background: #103485;
+    color: $textLight;
+}
+
+.main_icon {
+    color: #EF9632;
+    font-size: 3rem;
+}
+
+// Responsive
+@media all and (max-width: 768px) {
+    .hero-div {
+        width: 400px;
+    }
+    .sec1-grid,
+    .sec4-grid {
+        margin: 0 auto;
+    }
+    .sec2-img-div {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "camping",
+  "version": "1.0.0",
+  "description": "final project for html and css",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w ./assets/stylesheets/style.scss ./assets/stylesheets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swastikyadav/camping-group.git"
+  },
+  "author": "Swastik & Yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swastikyadav/camping-group/issues"
+  },
+  "homepage": "https://github.com/Swastikyadav/camping-group#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
+

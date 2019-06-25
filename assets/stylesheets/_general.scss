@@ -1,0 +1,167 @@
+// Button Styles
+.btn {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid $textDark;
+    color: $textDark;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+    &:hover {
+      background: #f34638;
+    }
+  }
+  .btn-primary {
+    border: none;
+    color: $textLight;
+    background: #EF9632;
+    margin: 1rem 0;
+  }
+  
+  // Forms
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid $textDark;
+    color: $textDark;
+    &::placeholder {
+      color: $textDark;
+      font-size: 0.9rem;
+    }
+  }
+  
+  // Padding
+  .padding {
+    padding: 4rem 0;
+  }
+  
+  // Hedings
+  .heading {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .sub-heading {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0.8rem;
+    letter-spacing: 0.05rem;
+  }
+  
+  // Text
+  .main-text {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+  }
+
+  // Header
+  .logo {
+    font-weight: 300;
+    color: $textLight;
+    cursor: pointer;
+}
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #777;
+  position: absolute;
+  width: 100%;
+}
+.nav-bar {
+    a {
+        padding: 0 20px;
+        color: $textLight;
+        &:hover {
+          color: #DF903D;
+        }
+    }
+}
+#active {
+    color: #DF903D;
+}
+
+// Hero Section
+.hero {
+  background: url("../media/banner.jpg");
+  background-size: cover;
+}
+
+// Footer Section
+footer {
+  padding: 6rem 0;
+  p,
+  a {
+    color: $textDark;
+    line-height: 2;
+  }
+  h4 {
+    margin: 1rem 0;
+    color: $textLight;
+  }
+  background: #1E282E;
+  input {
+    width: 100%;
+    padding: 1.2rem;
+    background: transparent;
+    border: 1px solid skyblue;
+  }
+}
+.lower-footer {
+  background: #232C33;
+  padding: 2rem 0;
+  color: $textDark;
+}
+.f_icon {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+
+#toggle,
+.ham {
+  display: none;
+}
+
+// Responsive Header & Footer
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .footer-div{
+    address,
+    div {
+      width: 100%;
+    }
+    justify-content: center;
+  }
+  .footer-icon {
+    margin: 0 auto;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #1F2631;
+    left: 0;
+    top: 73px;
+    .menu-link {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      color: $textLight;
+    }
+  }
+  .ham {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+    color: $textLight;
+    cursor: pointer;
+  }
+  #toggle:checked ~ .menu {
+    display: flex;
+  }
+}
